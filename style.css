@@ -1,0 +1,50 @@
+*{margin:0;padding:0;}
+.wrapper{
+	width:710px;
+	height:0 auto;
+	margin:0 auto;
+	background:#000;
+}
+.wrapper ul li{
+	list-style:none;
+	display:inline-block;
+}
+.wrapper ul li a{
+	display:block;
+	padding:20px 35px;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+}
+.wrapper ul li a:hover{
+	color:yellow;
+	background:red;
+}
+.bennar-cover{
+	width:960px;
+	
+    margin-left:330px;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.bennar-text{
+	padding:20px;
+	text-align:center;
+	
+}
+.bennar-text button{
+	font-size:20px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-top:-200px;
+	position:relative;
+	left:50px;
+	padding:20px;
+	border:0;
+	background:#fff;
+	color:#000;
+	
+	
+}
